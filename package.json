@@ -11,6 +11,16 @@
     "react-dom": "^18.1.0",
     "web-vitals": "^1.0.1"
   },
+  "window": {
+    "title": "node-webkit demo",
+    "icon": "link.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 400,
+    "height": 400,
+    "position": "mouse",
+    "resizable": false
+  },
   "scripts": {
     "start": "nw-react-scripts start",
     "build": "nw-react-scripts build",
